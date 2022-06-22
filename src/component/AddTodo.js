@@ -64,7 +64,7 @@ class AddTodo extends Component {
           <DesktopDatePicker
               id="new-item-date"
               label="Due Date"
-              value={this.state.due}
+              value={this.due}
               onChange={this.handleDue}
               renderInput={(params) => <TextField {...params} />}
           />
